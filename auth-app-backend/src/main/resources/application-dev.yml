@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth_app_yt
+    username: root
+    password: Yadav@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
